@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Event extends Model
 {
     use HasFactory;
+
+    // Dizendo para o laravel que vamos receber um array no items - induzindo um tipo
+    protected $casts = [
+        'items' => 'array'
+    ];
 }
