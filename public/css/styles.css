@@ -221,6 +221,9 @@ margin: 0.5%;
     width: 25%;
 }
 
+.dashboard-events-container form{
+    display: inline-block;
+}
 
 
 /* footer */
