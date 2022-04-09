@@ -226,6 +226,13 @@ margin: 0.5%;
 }
 
 
+/* Edit page */
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
 /* footer */
 
 footer{
